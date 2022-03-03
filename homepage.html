@@ -16,13 +16,24 @@
 
 <body>
     <!-- here goes the cart -->
-    <div id="shoppingCart"></div>
+    <div class="container">
+        <div id="shopping-cart" class="row">
+            
+        </div>
+    </div>
     <!-- here goes the filter search bar -->
-    <div id="inputSearchBar"></div>
+    <div class="container-fluid">
+        <div class="row w-100">
+            <div class="mx-auto my-4 w-100 d-flex">
+                <input type="text" class="p-2 w-50 mx-auto" placeholder="Search..." oninput="search(this.value)" />
+            </div>
+        </div>
+    </div>
     <!-- here goes the main page-->
     <div >
         <div class="container-fluid">
-            <div class="row" id="mainContainerBook"></div>
+            <div class="row" id="books-wrapper"></div>
+            <div class="row" id="searchContainerBook"></div>
         </div>
     </div>
     
